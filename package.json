@@ -1,0 +1,35 @@
+{
+  "name": "b2",
+  "version": "1.0.0",
+  "description": "2D physics (Box2D with liquidfun particles).",
+  "main": "index.js",
+  "license": "zlib",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucidogen/lucy-b2.git"
+  },
+  "keywords": [
+    "physics",
+    "2D",
+    "Box2D",
+    "particles",
+    "liquidfun"
+  ],
+  "author": "Erin Catto http://www.gphysics.com",
+  "bugs": {
+    "url": "https://github.com/lucidogen/lucy-b2/issues"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "~1.16.2"
+  },
+  "dependencies": {
+  },
+  "homepage": "https://github.com/lucidogen/lucy-b2",
+  "directories": {
+    "test": "test"
+  }
+}

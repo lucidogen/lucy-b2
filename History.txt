@@ -1,0 +1,4 @@
+== 1.0.0 2015-09-09
+
+  * Initial release.
+  * Code extracted from https://raw.githubusercontent.com/flyover/box2d.js/master/Box2D/Build/Box2D/box2d.min.js
