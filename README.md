@@ -1,4 +1,4 @@
-# Lucy b2 [![Build Status](https://travis-ci.org/lucidogen/b2.svg)](https://travis-ci.org/lucidogen/b2)
+# Lucy b2 [![Build Status](https://travis-ci.org/lucidogen/lucy-b2.svg)](https://travis-ci.org/lucidogen/lucy-b2)
 
 Box2D with google liquidfun for node.js
 
