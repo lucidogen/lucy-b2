@@ -1,7 +1,8 @@
 # Lucy b2 [![Build Status](https://travis-ci.org/lucidogen/lucy-b2.svg)](https://travis-ci.org/lucidogen/lucy-b2)
 
 Box2D by [Erin Catto](http://www.gphysics.com) with google's particle simulation
-[liquidfun](http://google.github.io/liquidfun/) for node.js.
+[liquidfun](http://google.github.io/liquidfun/) for node.js. API reference can
+be found here: [liquidfun API](http://google.github.io/liquidfun/API-Ref/html/annotated.html)
 
 Fork from [box2d.js](https://github.com/flyover/box2d.js).
 
