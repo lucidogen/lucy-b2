@@ -1,10 +1,9 @@
 # Lucy b2 [![Build Status](https://travis-ci.org/lucidogen/lucy-b2.svg)](https://travis-ci.org/lucidogen/lucy-b2)
 
-Box2D with google liquidfun for node.js
+Box2D by [Erin Catto](http://www.gphysics.com) with google's particle simulation
+[liquidfun](http://google.github.io/liquidfun/) for node.js.
 
-See this page for examples and information: [liquidfun](http://google.github.io/liquidfun/).
-
-Fork from [box2d.js](https://github.com/flyover/box2d.js)
+Fork from [box2d.js](https://github.com/flyover/box2d.js).
 
 Due to the fact that we are not creating sub-classes of C++ classes, we do not
 need to use 'b2' prefix to separate namespaces so this prefix has been removed.
