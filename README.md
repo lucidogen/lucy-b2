@@ -3,11 +3,6 @@
 Box2D by [Erin Catto](http://www.gphysics.com) with google's particle simulation
 [liquidfun](http://google.github.io/liquidfun/) for node.js.
 
-## Documentation
-
-  * [Programmer's guide](https://google.github.io/liquidfun/Programmers-Guide/html/index.html)
-  * [liquidfun API](http://google.github.io/liquidfun/API-Ref/html/annotated.html)
-
 ## This fork
 
 Fork from [box2d.js](https://github.com/flyover/box2d.js).
@@ -16,13 +11,7 @@ Due to the fact that we are not creating sub-classes of C++ classes, we do not
 need to use 'b2' prefix to separate namespaces so this prefix has been removed.
 
   ```Javascript
-  // Instead of writing code like this
-  // const box2d = require ( 'box2d' )
-  // let gravity = new box2d.b2Vec2 ( 0, -9.8 )
-  // let world = new box2d.b2World ( gravity )
-  // ... 
-  // let shape = new box2d.b2PolygonShape
-
+  // Instead of writing box2d.b2Vec2
   // Write this:
   const b2 = require ( 'lucy-b2' )
   let gravity = new b2.Vec2  ( 0, -9.8 )
@@ -30,6 +19,11 @@ need to use 'b2' prefix to separate namespaces so this prefix has been removed.
   // ...
   let shape = new b2.PolygonShape
   ```
+
+## Documentation
+
+  * [Programmer's guide](https://google.github.io/liquidfun/Programmers-Guide/html/index.html)
+  * [liquidfun API](http://google.github.io/liquidfun/API-Ref/html/annotated.html)
 
 ## Example
   Here is a falling ball simulation.
