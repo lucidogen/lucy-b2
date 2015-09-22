@@ -10,7 +10,7 @@ Fork from [box2d.js](https://github.com/flyover/box2d.js).
 Due to the fact that we are not creating sub-classes of C++ classes, we do not
 need to use 'b2' prefix to separate namespaces so this prefix has been removed.
 
-  ```Javascript
+  ```js
   // Instead of writing box2d.b2Vec2
   // Write this:
   const b2 = require ( 'lucy-b2' )
@@ -28,7 +28,7 @@ need to use 'b2' prefix to separate namespaces so this prefix has been removed.
 ## Example
   Here is a falling ball simulation.
 
-  ```Javascript
+  ```js
   'use strict'
   const b2 = require ( 'lucy-b2' )
 
@@ -90,4 +90,5 @@ write some unit tests for [lucy-b2](https://github.com/lucidogen/lucy-b2)...
 
 ## Release History
 
+  * 1.0.1 (2015-09-22) Fixed readme.
   * 1.0.0 (2015-09-09) Initial release.

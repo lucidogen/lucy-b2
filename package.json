@@ -1,6 +1,6 @@
 {
   "name": "lucy-b2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2D physics (Box2D with liquidfun particles).",
   "main": "index.js",
   "license": "Zlib",
